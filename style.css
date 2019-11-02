@@ -133,6 +133,9 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .banners__title {
@@ -213,6 +216,7 @@ margin: 10px 0 0 0;
     background: black;
     text-align: center;
     display: flex;
+    line-height: 20px;
 }
 
 .moreLink__arrow {
@@ -229,6 +233,121 @@ margin: 10px 0 0 0;
 
 /*End banners styles*/
 
+/*Block info styles*/
+
+.info {
+    display: flex;
+}
+
+.info__contacts, .info__about, .info__news {
+width: 33.33%;
+}
+
+.info__about {
+border-right: 1px solid #cccccc;
+border-left: 1px solid #cccccc;
+padding: 0 35px;
+width: 271px;
+font-size: 16px;
+line-height: 23px;
+color: #3c3c3c;
+font-family: "Helvetica CE";
+}
+
+.info__contacts {
+    padding-left: 35px;
+}
+
+.info__news {
+    padding-right: 10px;
+}
+
+.info__title {
+    margin: 0 0 35px 0;
+    color: #565656;
+    font-family: "Helvetica";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.info__chapter {
+    font-size: 16px;
+    color: #565656;
+    font-family: "Myriad Pro";
+    margin: 0 0 10px 0;
+}
+
+.info__description {
+font-size: 14px;
+color: #939393;
+font-family: "Tahoma";
+margin: 0;
+}
+
+.info__article {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px dashed #636363;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.info__date {
+    border-right: 1px solid #cccccc;
+    padding: 0 10px 0 3px;
+    margin-right: 10px;
+}
+
+.info__no {
+font-size: 18px;
+color: #f2ac04;
+font-family: "Helvetica Neue LT";
+font-weight: bold;
+font-style: normal;
+}
+
+.info__mon {
+    font-style: normal;
+    font-size: 10px;
+    color: #777777;
+    font-family: "Interstate Cond Mono";
+    text-transform: uppercase;
+}
+
+.info__icons {
+    color: #c0c0c0;
+    font-size: 28px !important;
+    width: 35px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed #636363;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.info__item:last-child {
+    border-bottom: none;
+    align-items: flex-start;
+}
+
+.info__phones {
+font-size: 18px;
+color: #757575;
+font-weight: bold;
+}
+
+.info__address {
+font-size: 16px;
+letter-spacing: 2px;
+color: #757575;
+}
+
+/*End block info styles*/
 
 
 

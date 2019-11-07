@@ -423,6 +423,9 @@ color: #757575;
 }
 
 /*End footer styles*/
+
+
+
 @media(max-width: 1005px) {
     .container {
         padding: 15px;

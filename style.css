@@ -62,15 +62,21 @@ li {
     font-size: 34px;
 }
 
+
 .logo_size_large:after, .logo_size_large:before {
     width: 55px;
     height: 55px;
 }
 
-.logo_size_little {
-    width: 210px;
-    height: 65px;
-    font-size: 34px;
+.logo_size_small {
+    width: 180px;
+    height: 35px;
+    font-size: 28px;
+}
+
+.logo_size_small:after, .logo_size_small:before {
+    width: 35px;
+    height: 35px;
 }
 
 /*End shared styles*/
@@ -372,15 +378,53 @@ color: #757575;
     background: #fff;
     width: 150px;
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     color: #343434;
     font-family: "Tahoma";
     text-transform: uppercase;
 }
 
-
-
 /*End clients styles*/
+
+/*Footer styles*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.footer .logo {
+    margin: 20px 0;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.footer__link {
+    padding: 0 15px;
+    text-transform: uppercase;
+    border-right: 1px solid #ccc;
+    color: #535353;
+}
+
+.footer__menu li:last-child .footer__link {
+    border: none;
+}
+
+.footer__copy {
+    color: #535353;
+}
+
+/*End footer styles*/
+
+
 
 @media(max-width: 1005px) {
     .container {
@@ -420,7 +464,7 @@ color: #757575;
     }
 
     .clients {
-        margin: 0;
+        margin-top: 15px;
     }
 
 }
